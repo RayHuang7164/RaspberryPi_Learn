@@ -1,13 +1,28 @@
 
-# 第三堂課建立開發環境  Python、Git、GitHub、VSCode、
+# Step1 安裝Python
 
-
-
-### 下載pycharm
+### 官網下載Python   
 ```
-https://www.python.org/
+[https://www.python.org/](https://www.python.org/)
 ```
+有舊版本的要先使用安裝檔進行完全移除Uninstall
+原本的安裝資料夾也需全部移除
 
+#版本選擇(選擇通用且比較穩定的版本)
+https://colab.research.google.com/
+
+!python --version
+Python 3.9.16 =>但是此板沒有Windows
+
+Python 3.9.16 - Dec. 6, 2022
+Note that Python 3.9.16 cannot be used on Windows 7 or earlier.
+
+所以目前老師建議選用穩定的
+Python 3.8.10 - May 3, 2021
+Note that Python 3.8.10 cannot be used on Windows XP or earlier.
+Download Windows installer (64-bit)  =>完全安裝
+
+#使用系統管理員身分執行安裝
 
 
 
