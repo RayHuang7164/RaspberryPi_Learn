@@ -19,6 +19,7 @@ Note that Python 3.9.16 cannot be used on Windows 7 or earlier.
 
 # 選用穩定的(使用系統管理員身分執行安裝)
 -https://www.python.org/downloads/windows/
+
 ![](./images/Python3810.PNG) 
 
 
