@@ -17,12 +17,10 @@ https://www.python.org/
 Python 3.9.16 - Dec. 6, 2022
 Note that Python 3.9.16 cannot be used on Windows 7 or earlier.
 
-所以目前老師建議選用穩定的
-Python 3.8.10 - May 3, 2021
-Note that Python 3.8.10 cannot be used on Windows XP or earlier.
-Download Windows installer (64-bit)  =>完全安裝
+# 選用穩定的(使用系統管理員身分執行安裝)
+https://www.python.org/downloads/windows/
+![](./images/Python3810.PNG) 
 
-#使用系統管理員身分執行安裝
 
 
 
