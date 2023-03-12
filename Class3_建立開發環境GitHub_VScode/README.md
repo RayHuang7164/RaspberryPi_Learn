@@ -2,16 +2,15 @@
 # Step1 安裝Python
 
 ### 官網下載Python   
-```
-[https://www.python.org/](https://www.python.org/)
-```
-有舊版本的要先使用安裝檔進行完全移除Uninstall
-原本的安裝資料夾也需全部移除
+https://www.python.org/
+-有舊版本的要先使用安裝檔進行完全移除Uninstall
+-原本的安裝資料夾也需全部移除
 
 #版本選擇(選擇通用且比較穩定的版本)
-https://colab.research.google.com/
 
-!python --version
+-Colab
+https://colab.research.google.com/
+![](./images/Colab_python_version.png)
 Python 3.9.16 =>但是此板沒有Windows
 
 Python 3.9.16 - Dec. 6, 2022
