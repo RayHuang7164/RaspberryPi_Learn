@@ -9,9 +9,10 @@ https://www.python.org/
 #版本選擇(選擇通用且比較穩定的版本)
 
 -Colab
-https://colab.research.google.com/
+-https://colab.research.google.com/
+
 ![](./images/Colab_python_version.png)
-Python 3.9.16 =>但是此板沒有Windows
+-Python 3.9.16 =>但是此板沒有Windows
 
 Python 3.9.16 - Dec. 6, 2022
 Note that Python 3.9.16 cannot be used on Windows 7 or earlier.
