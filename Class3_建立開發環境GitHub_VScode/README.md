@@ -4,6 +4,7 @@
 ## [Step2 安裝Git](#Install_Git)
 ## [Step3 安裝VSCode](#Install_VSCode)
 ## [Step4 連結GitHub](#Link_GitHub)
+## [Step5 專案內快速開啟VSCode](#Open_Vscode)
 
 
 <a name="Install_Python"></a>
@@ -147,3 +148,7 @@ $ git config --global user.email johndoe@example.com
 
 # 7.同步資料在GitHub端
 - ![](./images/GitHub_8_sync_All_Data.png)
+
+
+<a name="Open_Vscode"></a>
+- ![](./images/Quick_VsCode.png)
