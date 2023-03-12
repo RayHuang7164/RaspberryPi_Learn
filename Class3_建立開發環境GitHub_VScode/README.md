@@ -1,117 +1,148 @@
 
+# 目錄
+## [Step1 安裝Python](./目錄/系統安裝)
+## [Step2 安裝Git](./目錄/系統安裝)
+## [Step3 安裝VSCode](./目錄/系統安裝)
+## [Step4 連結GitHub](./目錄/系統安裝)
+
+
 # Step1 安裝Python
 
 ### 官網下載Python   
-https://www.python.org/
--有舊版本的要先使用安裝檔進行完全移除Uninstall
--原本的安裝資料夾也需全部移除
+- https://www.python.org/
+- 有舊版本的要先使用安裝檔進行完全移除Uninstall
+- 原本的安裝資料夾也需全部移除
 
-#版本選擇(選擇通用且比較穩定的版本)
+# 版本選擇(選擇通用且穩定的版本)
 
--Colab
--https://colab.research.google.com/
+- Colab
+- https://colab.research.google.com/
 
 ![](./images/Colab_python_version.PNG)
--Python 3.9.16 =>但是此板沒有Windows
+- Python 3.9.16 =>但是此板沒有Windows
 
-Python 3.9.16 - Dec. 6, 2022
-Note that Python 3.9.16 cannot be used on Windows 7 or earlier.
+#
+# 選穩定的(使用系統管理員身分執行安裝)
+- https://www.python.org/downloads/windows/
 
-# 選用穩定的(使用系統管理員身分執行安裝)
--https://www.python.org/downloads/windows/
+- ![](./images/Python3810.PNG) 
 
--![](./images/Python3810.PNG) 
+# Install_Python Customize Path
+- ![](./images/Install_Python_1.png) 
 
+# Install_Python Setup Path
+- ![](./images/Install_Python_2.png) 
 
+# Install_Python Path Length Limit
+- ![](./images/Install_Python_3.png) 
 
-
-預設帳號:pi
-
-預設密碼:raspberry
-
-# 目錄
-## [系統安裝](./目錄/系統安裝)
-- 沒有RaspberryPi硬體的解決方案
-- 下載Raspberry Pi OS
-
-## [遠端連線raspberry](./目錄/遠端連線raspberry)
-- 從序列埠連線至Raspberry(必需要有TTL線)
-- 查詢Raspberry的 ip Address
-- 透過電腦查詢Raspberry的 ip Address
-- 使用手機app查詢 Raspberry IP Address
-- 查詢Raspberry的 IP Address 
-- 透過手機AppNet Analyzer`查詢Raspberry IP Address
-- PC 透過SSH連線至Raspberry  
-- Mac 透過SSH連線至Raspberry
-- 設定raspberry環境 
-- 建立新的使用者帳號
-- 使用遠端桌面(Microsoft Remote Desktop) 
-- 使用VSCode連線至Raspberry
+# Install_Python 環境確認
+- ![](./images/Install_Python_4.png) 
 
 
+# Step2 安裝Git
 
-## [命令列](./目錄/命令列)
-- 建立github SSH keys
-- 使用SSH學習命令列 
-- 使用apt-get安裝和移除軟體
-- 安裝vim文字編輯器
+### 官網下載Git
+- https://git-scm.com/
 
-## [安裝python軟體工具和建立虛擬環境](./目錄/安裝軟體工具)
-- 安裝python3.x
-- 安裝condamini和jupyter(要用jupyter一定必需使用condamini)
-- 使用Conda建立python的虛擬環境
-- 使用virtualEnv建立python虛擬環境]
+# 版本選擇
+- ![](./images/Install_Git_1.png) 
 
-## [樹莓派內安裝程式編輯器](./目錄/樹莓派內安裝程式編輯器)
-- 安裝pycharm comunity editor for respberry4 2GB 以上
-- 安裝vscode
+# Install_Git 重要設定
+- ![](./images/Install_Git_2.png) 
 
-## [雲端服務](./目錄/雲端服務)
-- Firebase
-- Blynk
-- ifttt
-- thingSpeak
-
-## GPIO 操控
-- [Raspberry的40pin](#Raspberry的40pin)
-- [硬體一覽表](./硬體一覽表)
-- [tkinter](https://github.com/roberthsu2003/pythonWindow)
-- [1.led Control](./Firebase_GPIO_tkinter/1LEDControl)
-- [2.PWM LED](./Firebase_GPIO_tkinter/2PWMLed)
-- [3.RGB LED](./Firebase_GPIO_tkinter/3RGBLed)
-- [4.Button RGBLED](./Firebase_GPIO_tkinter/4Button_RGBLED)
-- [5.MCP3008 光敏電阻 LM35](./Firebase_GPIO_tkinter/5MCP3008)
-- [6.Servo](./Firebase_GPIO_tkinter/6servo)
-- [7.7段顯示器](./Firebase_GPIO_tkinter/7seven_segment_display)
-- [8.LCD_RFID](./Firebase_GPIO_tkinter/8LCD_RFID)
-- [9.Camera](./Firebase_GPIO_tkinter/9Camera)
-- [10.臉部辦識](./Firebase_GPIO_tkinter/10facial_recognition)
-- [自動執行程式](#autoRunProgram)  
+# Install_Git 環境確認
+- ![](./images/Install_Git_3.png) 
 
 
+# Step3 安裝VSCode
 
-<a name="Raspberry的40pin"></a>
-## Raspberry的40pin
-![](./images/pic_40pin.png)
+### 官網下載VSCode
+- https://code.visualstudio.com/
+
+# VSCode 1 登入畫面
+- ![](./images/VSCODE_1.png)
+
+# VSCode 2 延伸模組=>中文化
+- ![](./images/VSCODE_2.png)
+- 重新啟動後
+- ![](./images/VSCODE_3.png)
+
+# VSCode 3 設定自動儲存
+- ![](./images/VSCODE_4.png)
+- ![](./images/VSCODE_5.png)
 
 
-<a name=autoRunProgram></a>	
-## 自動執行程式
+# VSCode 4 延伸模組=>安裝Python輔助工具
+- ![](./images/VSCODE_6.png)
 
-### 啟動時自動執行應用程式
+# VSCode 5 建立專案資料夾
+- ![](./images/VSCODE_7.png)
+- ![](./images/VSCODE_8.png)
 
-```
+# VSCode 6 建立ipynb (JupyterNotebook)
+- ![](./images/VSCODE_9_ipynb_JupyterNotebook.png)
+# 選擇JupyterNotebook使用Python版本
+- ![](./images/VSCODE_10_ipynb_Python_FW.png)
+# 接受JupyterNotebook安裝相關套件
+- ![](./images/VSCODE_11_ipynb_Python_Other.png)
 
-1 建立 .desktop File
+# VSCode 7 建立py檔案
+- ![](./images/VSCODE_12_Build_py.png)
 
-mkdir /home/pi/.config/autostart
-nano /home/pi/.config/autostart/clock.desktop
+# 選擇Python運行版本
+- ![](./images/VSCODE_12_py_FW.png)
 
-2 clock.desktop的內容為
+# Check Function link
+- ![](./images/VSCODE_13_Check_Function_link.png)
 
-[Desktop Entry]
-Type=Application
-Name=Clock
-Exec=/usr/bin/python3 /home/pi/clock.py
-```
+# 打開終端機
+- ![](./images/VSCODE_14_Open_terminal.png)
 
+# 修改預設終端機
+- ![](./images/VSCODE_15_defaul_terminalt.png)
+
+# Windows Python 預設啟用程式 
+- (錯誤時會卡住 Ctrl+C 跳出)
+- ![](./images/VSCODE_16_Windows_defaul_PythonApp.png)
+- ![](./images/VSCODE_17_Windows_defaul_PythonAppFix.png)
+
+
+# Step4  連結GitHub
+# 1.先申請並驗證通過個人GitHub帳號
+- https://github.com/
+
+# 2.下載並安裝GitHub CLI (指令在Manual內)
+- https://cli.github.com/
+
+# 3.VSCode重啟新增Git Bash
+- ![](./images/GitHub_1_OpenGitBash.png)
+
+
+# 4.建立Git在專案內並設定相關資料
+- https://git-scm.com/book/zh-tw/v2/%E9%96%8B%E5%A7%8B-%E5%88%9D%E6%AC%A1%E8%A8%AD%E5%AE%9A-Git
+
+# 專案資料夾建立git進行專案管理
+- git init 
+- ls -al 確定.git隱藏檔有出現
+# 設定識別資料
+'''
+$ git config --global user.name "John Doe"
+
+$ git config --global user.email johndoe@example.com
+'''
+-![](./images/GitHub_3_Bulid_git.png)
+
+# 5.GitHub_Link
+- gh auth login 
+- https://cli.github.com/manual/
+- ![](./images/GitHub_4_GitHub_Link.png)
+- ![](./images/GitHub_5_Authorize_github.png)
+- ![](./images/GitHub_6_logged_Finish.png)
+
+# 6.建立資料夾在GitHub端
+- gh repo 專案資料夾名稱 --public --source=. --remote=upstream
+- ![](./images/GitHub_7_CreateFolderCloud.png)
+
+# 7.同步資料在GitHub端
+- ![](./images/GitHub_8_sync_All_Data.png)
