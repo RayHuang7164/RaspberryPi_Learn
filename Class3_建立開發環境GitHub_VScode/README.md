@@ -11,7 +11,7 @@ https://www.python.org/
 -Colab
 -https://colab.research.google.com/
 
-![image](./images/Colab_python_version.png)
+![](./images/Colab_python_version.PNG)
 -Python 3.9.16 =>但是此板沒有Windows
 
 Python 3.9.16 - Dec. 6, 2022
