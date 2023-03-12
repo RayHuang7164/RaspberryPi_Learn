@@ -1,11 +1,12 @@
 
 # 目錄
-## [Step1 安裝Python](./目錄/系統安裝)
-## [Step2 安裝Git](./目錄/系統安裝)
-## [Step3 安裝VSCode](./目錄/系統安裝)
-## [Step4 連結GitHub](./目錄/系統安裝)
+## [Step1 安裝Python](#Install_Python)
+## [Step2 安裝Git](#Install_Git)
+## [Step3 安裝VSCode](#Install_VSCode)
+## [Step4 連結GitHub](#Link_GitHub)
 
 
+<a name="Install_Python"></a>
 # Step1 安裝Python
 
 ### 官網下載Python   
@@ -39,7 +40,7 @@
 # Install_Python 環境確認
 - ![](./images/Install_Python_4.png) 
 
-
+<a name="Install_Git"></a>
 # Step2 安裝Git
 
 ### 官網下載Git
@@ -54,7 +55,7 @@
 # Install_Git 環境確認
 - ![](./images/Install_Git_3.png) 
 
-
+<a name="Install_VSCode"></a>
 # Step3 安裝VSCode
 
 ### 官網下載VSCode
@@ -107,7 +108,7 @@
 - ![](./images/VSCODE_16_Windows_defaul_PythonApp.png)
 - ![](./images/VSCODE_17_Windows_defaul_PythonAppFix.png)
 
-
+<a name="Link_GitHub"></a>
 # Step4  連結GitHub
 # 1.先申請並驗證通過個人GitHub帳號
 - https://github.com/
