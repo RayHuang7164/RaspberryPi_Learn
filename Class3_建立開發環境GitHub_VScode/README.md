@@ -150,5 +150,6 @@ $ git config --global user.email johndoe@example.com
 - ![](./images/GitHub_8_sync_All_Data.png)
 
 
+# Step5 專案內快速開啟VSCode
 <a name="Open_Vscode"></a>
 - ![](./images/Quick_VsCode.png)
