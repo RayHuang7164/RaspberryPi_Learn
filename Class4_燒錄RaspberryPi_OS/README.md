@@ -1,103 +1,81 @@
 
-# 第三堂課建立開發環境  Python、Git、GitHub、VSCode、
-
-
-
-### 下載pycharm
-```
-https://www.python.org/
-```
-
-
-
-
-預設帳號:pi
-
-預設密碼:raspberry
-
 # 目錄
-## [系統安裝](./目錄/系統安裝)
-- 沒有RaspberryPi硬體的解決方案
-- 下載Raspberry Pi OS
-
-## [遠端連線raspberry](./目錄/遠端連線raspberry)
-- 從序列埠連線至Raspberry(必需要有TTL線)
-- 查詢Raspberry的 ip Address
-- 透過電腦查詢Raspberry的 ip Address
-- 使用手機app查詢 Raspberry IP Address
-- 查詢Raspberry的 IP Address 
-- 透過手機AppNet Analyzer`查詢Raspberry IP Address
-- PC 透過SSH連線至Raspberry  
-- Mac 透過SSH連線至Raspberry
-- 設定raspberry環境 
-- 建立新的使用者帳號
-- 使用遠端桌面(Microsoft Remote Desktop) 
-- 使用VSCode連線至Raspberry
+## [Step1 安裝Raspberry Pi OS](#Install_RaspberryPiOS)
+## [Step2 Raspberry 連線](#Raspberry_Link)
+## [Step3 開啟Raspberry 設定](#putty)
+## [Step4 VNC 連線](#VNC_Link)
 
 
 
-## [命令列](./目錄/命令列)
-- 建立github SSH keys
-- 使用SSH學習命令列 
-- 使用apt-get安裝和移除軟體
-- 安裝vim文字編輯器
+<a name="Install_RaspberryPiOS"></a>
+# Step1 安裝Raspberry Pi OS
 
-## [安裝python軟體工具和建立虛擬環境](./目錄/安裝軟體工具)
-- 安裝python3.x
-- 安裝condamini和jupyter(要用jupyter一定必需使用condamini)
-- 使用Conda建立python的虛擬環境
-- 使用virtualEnv建立python虛擬環境]
+### 官網下載Raspberry Pi OS 
+- https://www.raspberrypi.com/software/
+- ![](./images/installRaspberryPi_1.PNG)
 
-## [樹莓派內安裝程式編輯器](./目錄/樹莓派內安裝程式編輯器)
-- 安裝pycharm comunity editor for respberry4 2GB 以上
-- 安裝vscode
+# 安裝RaspberryPiOS_imager_1.7.4.exe
+- ![](./images/installRaspberryPi_2.PNG) 
 
-## [雲端服務](./目錄/雲端服務)
-- Firebase
-- Blynk
-- ifttt
-- thingSpeak
+# Install_Raspberry Pi OS
+- ![](./images/installRaspberryPi_3.PNG) 
 
-## GPIO 操控
-- [Raspberry的40pin](#Raspberry的40pin)
-- [硬體一覽表](./硬體一覽表)
-- [tkinter](https://github.com/roberthsu2003/pythonWindow)
-- [1.led Control](./Firebase_GPIO_tkinter/1LEDControl)
-- [2.PWM LED](./Firebase_GPIO_tkinter/2PWMLed)
-- [3.RGB LED](./Firebase_GPIO_tkinter/3RGBLed)
-- [4.Button RGBLED](./Firebase_GPIO_tkinter/4Button_RGBLED)
-- [5.MCP3008 光敏電阻 LM35](./Firebase_GPIO_tkinter/5MCP3008)
-- [6.Servo](./Firebase_GPIO_tkinter/6servo)
-- [7.7段顯示器](./Firebase_GPIO_tkinter/7seven_segment_display)
-- [8.LCD_RFID](./Firebase_GPIO_tkinter/8LCD_RFID)
-- [9.Camera](./Firebase_GPIO_tkinter/9Camera)
-- [10.臉部辦識](./Firebase_GPIO_tkinter/10facial_recognition)
-- [自動執行程式](#autoRunProgram)  
+# Install_Raspberry Pi OS 設定
+- 建立名稱、開啟SSH
+- ![](./images/installRaspberryPi_4.PNG) 
+
+# 建立使用者帳號、密碼、WiFi (才能直接連線)
+- ![](./images/installRaspberryPi_5.PNG) 
+- ![](./images/installRaspberryPi_6.PNG)
+- ![](./images/installRaspberryPi_7.PNG)
 
 
 
-<a name="Raspberry的40pin"></a>
-## Raspberry的40pin
-![](./images/pic_40pin.png)
+<a name="Raspberry_Link"></a>
+# Step2 Raspberry 連線
+
+### 確定RaspberryPi 開機、連線
+# 確定連接到
+- ![](./images/RaspberryPi_Link1.PNG) 
+
+# 電腦連線並確定 RobertRay IP
+- ping RobertRay.local -4
+- ![](./images/RaspberryPi_Link2.PNG) 
 
 
-<a name=autoRunProgram></a>	
-## 自動執行程式
+<a name="putty"></a>
+# Step3 開啟Raspberry 設定
 
-### 啟動時自動執行應用程式
+### 官網下載putty
+- https://www.putty.org/
 
-```
+# 1.putty.exe 輸入IP
+- ![](./images/putty_1.PNG)
+- ![](./images/putty_2.PNG)
 
-1 建立 .desktop File
+# 2.輸入帳號密碼
+- ![](./images/putty_3.PNG)
 
-mkdir /home/pi/.config/autostart
-nano /home/pi/.config/autostart/clock.desktop
+# 3.Raspberry Pi SSH Link
+https://alwaysai.co/docs/reference/raspberry_pi_setup.html
+# sudo raspi-config
+- ![](./images/putty_4.PNG)
+- Interface Options 全部打開
+- ![](./images/putty_5.PNG)
+- ![](./images/putty_6.PNG)
 
-2 clock.desktop的內容為
 
-[Desktop Entry]
-Type=Application
-Name=Clock
-Exec=/usr/bin/python3 /home/pi/clock.py
-```
+<a name="VNC_Link"></a>
+# Step4  VNC 連線
+# 1.下載並安裝VNC-Viewer
+- https://www.realvnc.com/en/connect/download/viewer/
+
+# 2.VNC 使用 IP 登入
+- ![](./images/VNC_1.PNG)
+
+
+# 3.如果出現這個需接上顯示器調整螢幕
+- ![](./images/VNC_2.PNG)
+- ![](./images/VNC_3.PNG)
+
 
