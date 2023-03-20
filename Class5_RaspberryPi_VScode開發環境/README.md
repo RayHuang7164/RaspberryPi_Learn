@@ -3,8 +3,7 @@
 ## [Step1 Raspberry clone GitHub](#Raspberry_clone_GitHub)
 ## [Step2 VScode Windows端開啟Py](#VScode_Windows)
 ## [Step3 VScode Raspberry 連線](#VScode_Raspberry)
-
-## [Step4 VNC 連線](#VNC_Link)
+## [Step4 Thonny 同步驗證](#Thonny_Link)
 
 
 <a name="Raspberry_clone_GitHub"></a>
@@ -34,6 +33,7 @@
 - gh repo clone https://github.com/RayHuang7164/Pi_Project1
 - ![](./images/Cli_6.png)
 
+
 <a name="VScode_Windows"></a>
 # Step2 VScode Windows端開啟Py
 
@@ -59,3 +59,9 @@
 
 # Open terminal
 - ![](./images/VScode_6.png) 
+
+
+<a name="Thonny_Link"></a>
+# Step4 Thonny 同步驗證
+- ![](./images/Thonny_1.png)
+- ![](./images/Thonny_2.png)
