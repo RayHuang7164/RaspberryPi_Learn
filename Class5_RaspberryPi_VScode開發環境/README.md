@@ -11,15 +11,11 @@
 # Step1 VScode Windows端開啟Py
 
 # 專案資料夾下CMD => Code . 
-- 呼叫VsCode
 - ![](./images/VScode_1.png) 
 
-# 專案資料夾下CMD => Code . 
-- 呼叫VsCode
+# 可以直接執行會在DOS環境顯示結果
 - ![](./images/VScode_2.png) 
 
-# 可以直接執行會在DOS環境顯示結果
-- ![](./images/installRaspberryPi_3.PNG) 
 
 
 <a name="VScode_Raspberry"></a>
