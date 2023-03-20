@@ -76,6 +76,8 @@ https://alwaysai.co/docs/reference/raspberry_pi_setup.html
 
 # 3.如果出現這個需接上顯示器調整螢幕
 - ![](./images/VNC_2.PNG)
-- ![](./images/VNC_3.PNG)
+- 修改設定檔 (重啟)
+- sudo nano /boot/config.txt
+- ![](./images/VNC_4.PNG)
 
 

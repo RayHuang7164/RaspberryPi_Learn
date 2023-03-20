@@ -1,40 +1,30 @@
 
 # 目錄
-## [Step1 安裝Raspberry Pi OS](#Install_RaspberryPiOS)
-## [Step2 Raspberry 連線](#Raspberry_Link)
+## [Step1 VScode Windows端開啟Py](#VScode_Windows)
+## [Step2 VScode Raspberry 連線](#VScode_Raspberry)
 ## [Step3 開啟Raspberry 設定](#putty)
 ## [Step4 VNC 連線](#VNC_Link)
 
 
 
-<a name="Install_RaspberryPiOS"></a>
-# Step1 安裝Raspberry Pi OS
+<a name="VScode_Windows"></a>
+# Step1 VScode Windows端開啟Py
 
-### 官網下載Raspberry Pi OS 
-- https://www.raspberrypi.com/software/
-- ![](./images/installRaspberryPi_1.PNG)
+# 專案資料夾下CMD => Code . 
+- 呼叫VsCode
+- ![](./images/VScode_1.png) 
 
-# 安裝RaspberryPiOS_imager_1.7.4.exe
-- ![](./images/installRaspberryPi_2.PNG) 
+# 專案資料夾下CMD => Code . 
+- 呼叫VsCode
+- ![](./images/VScode_2.png) 
 
-# Install_Raspberry Pi OS
+# 可以直接執行會在DOS環境顯示結果
 - ![](./images/installRaspberryPi_3.PNG) 
 
-# Install_Raspberry Pi OS 設定
-- 建立名稱、開啟SSH
-- ![](./images/installRaspberryPi_4.PNG) 
 
-# 建立使用者帳號、密碼、WiFi (才能直接連線)
-- ![](./images/installRaspberryPi_5.PNG) 
-- ![](./images/installRaspberryPi_6.PNG)
-- ![](./images/installRaspberryPi_7.PNG)
+<a name="VScode_Raspberry"></a>
+# Step2 VScode Raspberry 連線
 
-
-
-<a name="Raspberry_Link"></a>
-# Step2 Raspberry 連線
-
-### 確定RaspberryPi 開機、連線
 # 確定連接到
 - ![](./images/RaspberryPi_Link1.PNG) 
 
