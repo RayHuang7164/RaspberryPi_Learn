@@ -54,7 +54,7 @@
 # 帳號@IP -> Linex
 - ![](./images/VScode_4.png) 
 
-# password
+# password ( raspberry )
 - ![](./images/VScode_5.png) 
 
 # Open terminal
