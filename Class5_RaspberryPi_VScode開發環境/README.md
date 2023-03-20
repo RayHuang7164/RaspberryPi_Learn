@@ -1,14 +1,41 @@
 
 # 目錄
-## [Step1 VScode Windows端開啟Py](#VScode_Windows)
-## [Step2 VScode Raspberry 連線](#VScode_Raspberry)
-## [Step3 開啟Raspberry 設定](#putty)
+## [Step1 Raspberry clone GitHub](#Raspberry_clone_GitHub)
+## [Step2 VScode Windows端開啟Py](#VScode_Windows)
+## [Step3 VScode Raspberry 連線](#VScode_Raspberry)
+
 ## [Step4 VNC 連線](#VNC_Link)
 
 
+<a name="Raspberry_clone_GitHub"></a>
+# Step1 Raspberry clone GitHub
+
+# 1.VNC -> Open terminal
+- ![](./images/Raspberry_clone_GitHub_1.PNG) 
+
+# 2.Find Command
+- https://cli.github.com/
+- ![](./images/Cli_1.png) 
+- ![](./images/Cli_1_2.png) 
+- ![](./images/Cli_1_3.png) 
+
+# 3.在terminal執行
+- ![](./images/Cli_3.png)
+
+# 4.登入Git
+- git config --global user.name "John Doe"
+- git config --global user.email johndoe@example.com
+- ![](./images/Cli_4.png)
+
+# 5.gh auth login
+- ![](./images/Cli_5.png)
+
+# 6.gh repo clone 同步
+- gh repo clone https://github.com/RayHuang7164/Pi_Project1
+- ![](./images/Cli_6.png)
 
 <a name="VScode_Windows"></a>
-# Step1 VScode Windows端開啟Py
+# Step2 VScode Windows端開啟Py
 
 # 專案資料夾下CMD => Code . 
 - ![](./images/VScode_1.png) 
@@ -19,49 +46,16 @@
 
 
 <a name="VScode_Raspberry"></a>
-# Step2 VScode Raspberry 連線
+# Step3 VScode Raspberry 連線
 
-# 確定連接到
-- ![](./images/RaspberryPi_Link1.PNG) 
+# Connect to Host
+- ![](./images/VScode_3.png)
 
-# 電腦連線並確定 RobertRay IP
-- ping RobertRay.local -4
-- ![](./images/RaspberryPi_Link2.PNG) 
+# 帳號@IP
+- ![](./images/VScode_4.png) 
 
+# password
+- ![](./images/VScode_5.png) 
 
-<a name="putty"></a>
-# Step3 開啟Raspberry 設定
-
-### 官網下載putty
-- https://www.putty.org/
-
-# 1.putty.exe 輸入IP
-- ![](./images/putty_1.PNG)
-- ![](./images/putty_2.PNG)
-
-# 2.輸入帳號密碼
-- ![](./images/putty_3.PNG)
-
-# 3.Raspberry Pi SSH Link
-https://alwaysai.co/docs/reference/raspberry_pi_setup.html
-# sudo raspi-config
-- ![](./images/putty_4.PNG)
-- Interface Options 全部打開
-- ![](./images/putty_5.PNG)
-- ![](./images/putty_6.PNG)
-
-
-<a name="VNC_Link"></a>
-# Step4  VNC 連線
-# 1.下載並安裝VNC-Viewer
-- https://www.realvnc.com/en/connect/download/viewer/
-
-# 2.VNC 使用 IP 登入
-- ![](./images/VNC_1.PNG)
-
-
-# 3.如果出現這個需接上顯示器調整螢幕
-- ![](./images/VNC_2.PNG)
-- ![](./images/VNC_3.PNG)
-
-
+# Open terminal
+- ![](./images/VScode_6.png) 
