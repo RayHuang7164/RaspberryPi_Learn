@@ -51,7 +51,7 @@
 # Connect to Host
 - ![](./images/VScode_3.png)
 
-# 帳號@IP
+# 帳號@IP -> Linex
 - ![](./images/VScode_4.png) 
 
 # password
