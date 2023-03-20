@@ -1,7 +1,7 @@
 
 # 目錄
 ## [Step1 Raspberry clone GitHub](#Raspberry_clone_GitHub)
-## [Step2 VScode Windows端開啟Py](#VScode_Windows)
+## [Step2 VScode Windows 端開啟Py](#VScode_Windows)
 ## [Step3 VScode Raspberry 連線](#VScode_Raspberry)
 ## [Step4 Thonny 同步驗證](#Thonny_Link)
 
