@@ -8,7 +8,7 @@
 # Button 各自Function Print Message
 - ![](./images/button_function.PNG) 
 
-# button_GPIO 樹梅派控制GPIO 25 Led燈控制
+# button_GPIO 樹梅派控制GPIO Pin25 Led燈控制
 - ![](./images/button_GPIO.PNG) 
 
 
