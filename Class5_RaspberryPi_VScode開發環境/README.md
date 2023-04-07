@@ -2,7 +2,7 @@
 # 目錄
 ## [Step1 Raspberry clone GitHub](#Raspberry_clone_GitHub)
 ## [Step2 VScode Windows 端開啟Py](#VScode_Windows)
-## [Step3 VScode Raspberry 連線](#VScode_Raspberry)
+## [Step3 SSH VScode Raspberry 連線](#VScode_Raspberry)
 ## [Step4 Thonny 同步驗證](#Thonny_Link)
 
 
@@ -46,12 +46,12 @@
 
 
 <a name="VScode_Raspberry"></a>
-# Step3 VScode Raspberry 連線
+# Step3 SSH VScode Raspberry 連線
 
 # Connect to Host
 - ![](./images/VScode_3.png)
 
-# 帳號@IP -> Linex
+# Linex -> 帳號@IP 
 - ![](./images/VScode_4.png) 
 
 # password ( raspberry )
