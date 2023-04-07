@@ -65,3 +65,6 @@
 # Step4 Thonny 同步驗證
 - ![](./images/Thonny_1.png)
 - ![](./images/Thonny_2.png)
+
+- 之後都在SSH Vscode 操作 樹梅派內的Thonny會一起更新
+- ![](./images/VScode_6.png) 
