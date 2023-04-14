@@ -5,6 +5,7 @@
 ## [Step3 安裝VSCode](#Install_VSCode)
 ## [Step4 連結GitHub](#Link_GitHub)
 ## [Step5 專案內快速開啟VSCode](#Open_Vscode)
+## [Step6 ssh Record 清除](#ssh_Record)
 
 
 <a name="Install_Python"></a>
@@ -153,3 +154,9 @@ $ git config --global user.email johndoe@example.com
 # Step5 專案內快速開啟VSCode
 <a name="Open_Vscode"></a>
 - ![](./images/Quick_VsCode.png)
+
+
+
+# Step6 ssh Record 清除
+<a name="ssh_Record"></a>
+- ![](./images/SSH_Record.PNG)
