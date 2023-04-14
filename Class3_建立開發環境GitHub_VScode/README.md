@@ -158,5 +158,7 @@ $ git config --global user.email johndoe@example.com
 
 
 # Step6 ssh Record 清除
+- 連不上時刪除所有記錄
+- 此文件內所有東西刪掉
 <a name="ssh_Record"></a>
 - ![](./images/SSH_Record.PNG)
