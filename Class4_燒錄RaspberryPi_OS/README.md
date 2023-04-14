@@ -35,7 +35,14 @@
 # Step2 Raspberry 連線
 
 ### 確定RaspberryPi 開機、連線
-# 確定連接到
+
+# 同網域內DOS找RaspberryPi的IP
+- Ipconfig 找到自己IP (ex: 192.168.11.3)
+- for /L %i IN (1,1,254) DO ping -w 1 -n 1 192.168.11.%i
+- arp -a 
+- ![](./images/DOS_Scan_IP.PNG) 
+
+# 用手機查IP
 - ![](./images/RaspberryPi_Link1.PNG) 
 
 # 電腦連線並確定 RobertRay IP
