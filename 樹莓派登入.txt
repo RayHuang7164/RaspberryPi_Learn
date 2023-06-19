@@ -8,6 +8,7 @@ https://cli.github.com/manual/gh
 6.gh repo create RaspberryPi_Learn --public --source=. --remote=upstream  //建立資料夾Giithub
 
 gh repo clone https://github.com/RayHuang7164/Pi_Project1/
+gh repo clone https://github.com/RayHuang7164/360_degreePanoramaVideoUpscaling/
 
 rm -rf Pi_Project1
 
