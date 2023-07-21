@@ -87,7 +87,6 @@ https://www.python.org/
 - [自動執行程式](#autoRunProgram)  
 
 
-
 <a name="Raspberry的40pin"></a>
 ## Raspberry的40pin
 ![](./images/pic_40pin.png)

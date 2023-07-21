@@ -6,7 +6,7 @@
 ## [Step4 連結GitHub](#Link_GitHub)
 ## [Step5 專案內快速開啟VSCode](#Open_Vscode)
 ## [Step6 ssh Record 清除](#ssh_Record)
-
+## [Step7 DOS 登入GitHub](#DOS_GitHub)
 
 <a name="Install_Python"></a>
 # Step1 安裝Python
@@ -162,3 +162,10 @@ $ git config --global user.email johndoe@example.com
 - 此文件內所有東西刪掉
 <a name="ssh_Record"></a>
 - ![](./images/SSH_Record.PNG)
+
+
+
+# Step7  DOS 登入GitHub
+<a name="DOS_GitHub"></a>
+
+- ![](./images/github_DOS_Login.jpg) 
