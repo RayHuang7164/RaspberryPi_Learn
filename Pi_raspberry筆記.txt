@@ -1,0 +1,138 @@
+https://git-scm.com/book/zh-tw/v2/%E9%96%8B%E5%A7%8B-%E5%88%9D%E6%AC%A1%E8%A8%AD%E5%AE%9A-Git
+https://cli.github.com/manual/gh
+1.(github Cli要安裝)
+2.gh auth login
+3.git init
+4.git config --global user.name "RayHuang7164"
+5.git config --global user.email raymineg@gmail.com
+6.gh repo create RaspberryPi_Learn --public --source=. --remote=upstream  //建立資料夾Giithub
+
+gh repo clone https://github.com/RayHuang7164/Pi_Project1/
+gh repo clone https://github.com/RayHuang7164/360_degreePanoramaVideoUpscaling
+rm -rf Pi_Project1
+
+
+名子
+RobertRay
+帳號
+Pi
+raspberry
+
+WIFI
+Galaxy S20 Evil
+koso7777
+
+ping RobertRay.local -4
+
+https://github.com/roberthsu2003/raspberry/tree/master/%E7%9B%AE%E9%8C%84/%E9%81%A0%E7%AB%AF%E9%80%A3%E7%B7%9Araspberry#sshToRaspberryOnPC
+
+
+
+https://inf.news/digital/2ab36266a44d160f4e1d2bd4723f1f65.html
+======找到raspberry IP============
+ipconfig ==>  192.168.207.169(偏好選項)
+windows掃網域
+for /L %i IN (1,1,254) DO ping -w 1 -n 1 192.168.207.%i
+arp -a
+=====知道名子ping RobertRay.local -4=============
+//===========開通interface Options(VNC一定要打開)==========
+putty
+ssh Ip
+
+帳號
+Pi
+raspberry
+
+sudo raspi-config
+sudo reboot
+//==============VNC 登入==========================
+IP
+
+帳號
+Pi
+raspberry
+
+================VSCODE內登入樹梅派=============
+
+ssh Pi@192.168.187.100
+
+左下角開啟遠端桌面
+connect to host
+Pi@192.168.187.100
+Linex
+
+sudo nano /boot/config.txt
+
+
+Your key is: cWBGPZRTtUranNDtkkjYd1
+
+============樹梅派圖控gitHUB2登入===
+安裝
+https://cli.github.com/
+https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+
+type -p curl >/dev/null || sudo apt install curl -y
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
+&& sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
+&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \
+&& sudo apt update \
+&& sudo apt install gh -y
+
+同步的動作
+
+
+4.git config --global user.name "RayHuang7164"
+5.git config --global user.email raymineg@gmail.com
+
+2.gh auth login
+What account do you want to log into? GitHub.com
+What is your preferred protocol for Git operations? SSH
+pload your SSH public key to your GitHub account? /home/Pi/.ssh/id_ed25519.pub
+ Title for your SSH key: GitHub CLI  預設
+? How would you like to authenticate GitHub CLI? Login with a web browser
+
+
+下載指令
+https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+
+repo
+archive
+clone
+
+========同步的位置 
+gh repo clone https://github.com/cli/cli
+gh repo clone https://github.com/RayHuang7164/Pi_Project1
+
+
+GPIO pip install RPi.GPIO
+https://pypi.org/project/RPi.GPIO/
+
+
+
+
+==============IFTTT=================
+https://ifttt.com/
+https://github.com/roberthsu2003/raspberry/tree/master/%E7%9B%AE%E9%8C%84/%E9%9B%B2%E7%AB%AF%E6%9C%8D%E5%8B%99/ifttt
+
+DHCP
+=====================================今天
+要馬上啟用conf要執行
+Sourse /etc/dhcpcd.conf // *.conf
+
+========回顧===============
+樹梅派 安裝完CLli安裝完
+1.先安裝LIUNX指令
+2.git mail
+3.git 帳號
+3.gh auth login
+4.gh auth status 確定登入狀況 
+5.老師在網頁有個GITHUB 有個連結可以按 (影片)
+
+
+======================開始=================
+類比訊號偵測 (光線、溫度、距離)接收 MCP3008
+raspberry pwm 輸出需要另外模組
+檢查 ls /dev/*spi*
+
+
+安卓要自己另外建立UI
