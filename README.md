@@ -19,17 +19,20 @@
 
 預設密碼:raspberry
 
-windows掃網域
-for /L %i IN (1,1,254) DO ping -w 1 -n 1 192.168.207.%i
 
+
+VNC需要IP
+
+## 找到電腦
+ipconfig ==>  192.168.11.169(偏好選項)
+
+## windows掃網域所有11段的使用IP
+for /L %i IN (1,1,254) DO ping -w 1 -n 1 192.168.11.%i
+
+## 列出所以使用的IP
 arp -a
-=====知道名子ping RobertRay.local -4=============
 
-2 clock.desktop的內容為
 
-[Desktop Entry]
-Type=Application
-Name=Clock
-Exec=/usr/bin/python3 /home/pi/clock.py
+
 ```
 
